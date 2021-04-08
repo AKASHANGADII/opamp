@@ -1,5 +1,5 @@
 command = ""
-started = input("enter true or false = ").title()
+started = input("Enter true or false = ").title()
 while command != "quit":
     command = input("> ").lower()
     if command == "start":
